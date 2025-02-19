@@ -7,7 +7,7 @@
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers-extra/features/maven-sdkman:2": { "jdkVersion":  "21", "jdkDistro": "tem" },
   },
-//  "runArgs": ["--device=/dev/net/tun:/dev/net/tun:rwm","--security-opt=unmask=/proc/*"],
+  "runArgs": ["--device=/dev/net/tun:/dev/net/tun:rwm","--security-opt=unmask=/proc/*"],
 
   // Configure tool-specific properties.
   "customizations" : {
