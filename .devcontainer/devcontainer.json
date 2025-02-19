@@ -1,31 +1,19 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/rust
+// README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
-  "name": "devcontainer",
-  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
-  "features": {
-    "ghcr.io/devcontainers/features/common-utils:2": {},
-    "ghcr.io/devcontainers-extra/features/maven-sdkman:2": { "jdkVersion":  "21", "jdkDistro": "tem" },
-  },
-  "runArgs": ["--device=/dev/net/tun:/dev/net/tun:rwm","--security-opt=unmask=/proc/*"],
+	"name": "Java",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
 
-  // Configure tool-specific properties.
-  "customizations" : {
-    "jetbrains" : {
-      "backend" : "IntelliJ"
-    },
-    "vscode": {
-      "extensions": [
-        "-vscjava.vscode-java-pack",
-        "mhutchie.git-graph",
-        "mutantdino.resourcemonitor",
-        "asciidoctor.asciidoctor-vscode"
-        
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
 
-      ]
-    }
-  },
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "java -version",
 
-  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-  "remoteUser": "vscode"
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	 "remoteUser": "vscode"
 }
