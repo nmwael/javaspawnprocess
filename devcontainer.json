@@ -1,0 +1,31 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/rust
+{
+  "name": "devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers-extra/features/maven-sdkman:2": { "jdkVersion":  "21", "jdkDistro": "tem" },
+  },
+//  "runArgs": ["--device=/dev/net/tun:/dev/net/tun:rwm","--security-opt=unmask=/proc/*"],
+
+  // Configure tool-specific properties.
+  "customizations" : {
+    "jetbrains" : {
+      "backend" : "IntelliJ"
+    },
+    "vscode": {
+      "extensions": [
+        "-vscjava.vscode-java-pack",
+        "mhutchie.git-graph",
+        "mutantdino.resourcemonitor",
+        "asciidoctor.asciidoctor-vscode"
+        
+
+      ]
+    }
+  },
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  "remoteUser": "vscode"
+}
