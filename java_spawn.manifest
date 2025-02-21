@@ -10,7 +10,7 @@ sha256 = "8fb2d369e5d67d4d34100464e1b052d18a421860409f3aeef87a0ed9655a85ac"
 LD_LIBRARY_PATH = "/lib:/lib/x86_64-linux-gnu:/usr/lib:/usr//lib/x86_64-linux-gnu"
 
 [libos]
-entrypoint = "/usr/lib/jvm/msopenjdk-current/bin/java"
+entrypoint = "/usr/local/sdkman/candidates/java/current/bin/java"
 
 [[fs.mounts]]
 type = "tmpfs"
@@ -52,8 +52,8 @@ uri = "file:/usr/lib/x86_64-linux-gnu/gramine/libsysdb.so"
 sha256 = "8fb2d369e5d67d4d34100464e1b052d18a421860409f3aeef87a0ed9655a85ac"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/bin/java"
-sha256 = "42ec9befca25d574ae1e08af25f530ed023bf543b9ad0ee7d4f97cd9110b7cdb"
+uri = "file:/usr/local/sdkman/candidates/java/current/bin/java"
+sha256 = "5d21bb298473391e0959ea6bd17b4908cb9c54fec3c752bc8378e6a7314ddda3"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/gramine/runtime/glibc/crt1.o"
@@ -2145,11 +2145,11 @@ sha256 = "109ef121497fd13456fd834a7a5472dd88b05e66f22633e2775b98bbb71bbf3b"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libblkid.so.1"
-sha256 = "95dc76301b7f77338283f71d049e451050234fa9f3235bd8eade2de6060b9b10"
+sha256 = "cc3d6ca965cab25eacb8d7d98f0b13be7c94a19583983fb864ba10163e5536b0"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libblkid.so.1.1.0"
-sha256 = "95dc76301b7f77338283f71d049e451050234fa9f3235bd8eade2de6060b9b10"
+sha256 = "cc3d6ca965cab25eacb8d7d98f0b13be7c94a19583983fb864ba10163e5536b0"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libbpf.so.1"
@@ -2513,11 +2513,11 @@ sha256 = "7376c9af0afd6e7698a64ee19de3c8a0199418664974384c70435a51c7ff7f3f"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libgnutls.so.30"
-sha256 = "4986dd7d7c0d9048453c724769d3ba5305a2cc4f57e9adb22b12b800c501f37b"
+sha256 = "d6013ca9a682ae21201132d78452beebfe0e4fa6ff503b4ba77ccf0f691a9ece"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libgnutls.so.30.34.3"
-sha256 = "4986dd7d7c0d9048453c724769d3ba5305a2cc4f57e9adb22b12b800c501f37b"
+sha256 = "d6013ca9a682ae21201132d78452beebfe0e4fa6ff503b4ba77ccf0f691a9ece"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libgomp.so.1"
@@ -2909,11 +2909,11 @@ sha256 = "26e828524b37a408819da0d90532b803c077e44508a0a0f9304dde0f51575b6a"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libmount.so.1"
-sha256 = "934e64b8270b82774ae0dd2ff0d6bd22e26315ed67269f8858a1b2ba2d313b50"
+sha256 = "70c1da7f7a3d802c498f4938449bfc7a51877c46b16572d1a396901c032758bc"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libmount.so.1.1.0"
-sha256 = "934e64b8270b82774ae0dd2ff0d6bd22e26315ed67269f8858a1b2ba2d313b50"
+sha256 = "70c1da7f7a3d802c498f4938449bfc7a51877c46b16572d1a396901c032758bc"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libmpc.so.3"
@@ -3405,11 +3405,11 @@ sha256 = "663895d5fb916b18b8afc3a8acebd12f007d865e35a878827ceeb4b0b580dadc"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libsmartcols.so.1"
-sha256 = "069dac3c6f2e04f24b16544391ea372feb659e39c197aa65c67d75ed82cae72c"
+sha256 = "d4f96dcb01992214134b549050339df5383ec530eeb010460ae4eed9cc5fbee2"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libsmartcols.so.1.1.0"
-sha256 = "069dac3c6f2e04f24b16544391ea372feb659e39c197aa65c67d75ed82cae72c"
+sha256 = "d4f96dcb01992214134b549050339df5383ec530eeb010460ae4eed9cc5fbee2"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libsqlite3.so.0"
@@ -3457,19 +3457,19 @@ sha256 = "2b7d4c5c549898f3fff509105d7c5b283f0cfcaa83d38954dc8690bd5aba88ed"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libsystemd.so.0"
-sha256 = "c26b447b611a823fa3847144fc05bf2f0152efeda91c4d9aa850aa1848559f63"
+sha256 = "97b53b587868f38dc4f7396f174f4a092b66b49c31e23430d749e5e5dd291062"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libsystemd.so.0.35.0"
-sha256 = "c26b447b611a823fa3847144fc05bf2f0152efeda91c4d9aa850aa1848559f63"
+sha256 = "97b53b587868f38dc4f7396f174f4a092b66b49c31e23430d749e5e5dd291062"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libtasn1.so.6"
-sha256 = "ac2f39cfc5a5ae22d74854e473449608bd3b7ded362acd11e4af3acd4a723bae"
+sha256 = "139e933ac55f26bb80520fc63893ff2a528055fdf8058d8341bbd9d7bd762a5e"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libtasn1.so.6.6.3"
-sha256 = "ac2f39cfc5a5ae22d74854e473449608bd3b7ded362acd11e4af3acd4a723bae"
+sha256 = "139e933ac55f26bb80520fc63893ff2a528055fdf8058d8341bbd9d7bd762a5e"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libthread_db.so"
@@ -3537,11 +3537,11 @@ sha256 = "7df177a0921f0500d0e9d824ac46d3377e10d348306336b6ede2d8f626519539"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libudev.so.1"
-sha256 = "ccd13b11fd77276bcf948f79e08a4de7a313643387dfdc11af71a543e1bae233"
+sha256 = "1753cdf3413d718637ff8102c4a59e9ac3e56d88419dc24afebf1fc401db9b51"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libudev.so.1.7.5"
-sha256 = "ccd13b11fd77276bcf948f79e08a4de7a313643387dfdc11af71a543e1bae233"
+sha256 = "1753cdf3413d718637ff8102c4a59e9ac3e56d88419dc24afebf1fc401db9b51"
 
 [[sgx.trusted_files]]
 uri = "file:/lib/x86_64-linux-gnu/libunistring.so.2"
@@ -9725,11 +9725,11 @@ sha256 = "109ef121497fd13456fd834a7a5472dd88b05e66f22633e2775b98bbb71bbf3b"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libblkid.so.1"
-sha256 = "95dc76301b7f77338283f71d049e451050234fa9f3235bd8eade2de6060b9b10"
+sha256 = "cc3d6ca965cab25eacb8d7d98f0b13be7c94a19583983fb864ba10163e5536b0"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0"
-sha256 = "95dc76301b7f77338283f71d049e451050234fa9f3235bd8eade2de6060b9b10"
+sha256 = "cc3d6ca965cab25eacb8d7d98f0b13be7c94a19583983fb864ba10163e5536b0"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libbpf.so.1"
@@ -10093,11 +10093,11 @@ sha256 = "7376c9af0afd6e7698a64ee19de3c8a0199418664974384c70435a51c7ff7f3f"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libgnutls.so.30"
-sha256 = "4986dd7d7c0d9048453c724769d3ba5305a2cc4f57e9adb22b12b800c501f37b"
+sha256 = "d6013ca9a682ae21201132d78452beebfe0e4fa6ff503b4ba77ccf0f691a9ece"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libgnutls.so.30.34.3"
-sha256 = "4986dd7d7c0d9048453c724769d3ba5305a2cc4f57e9adb22b12b800c501f37b"
+sha256 = "d6013ca9a682ae21201132d78452beebfe0e4fa6ff503b4ba77ccf0f691a9ece"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libgomp.so.1"
@@ -10489,11 +10489,11 @@ sha256 = "26e828524b37a408819da0d90532b803c077e44508a0a0f9304dde0f51575b6a"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libmount.so.1"
-sha256 = "934e64b8270b82774ae0dd2ff0d6bd22e26315ed67269f8858a1b2ba2d313b50"
+sha256 = "70c1da7f7a3d802c498f4938449bfc7a51877c46b16572d1a396901c032758bc"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0"
-sha256 = "934e64b8270b82774ae0dd2ff0d6bd22e26315ed67269f8858a1b2ba2d313b50"
+sha256 = "70c1da7f7a3d802c498f4938449bfc7a51877c46b16572d1a396901c032758bc"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libmpc.so.3"
@@ -10985,11 +10985,11 @@ sha256 = "663895d5fb916b18b8afc3a8acebd12f007d865e35a878827ceeb4b0b580dadc"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libsmartcols.so.1"
-sha256 = "069dac3c6f2e04f24b16544391ea372feb659e39c197aa65c67d75ed82cae72c"
+sha256 = "d4f96dcb01992214134b549050339df5383ec530eeb010460ae4eed9cc5fbee2"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libsmartcols.so.1.1.0"
-sha256 = "069dac3c6f2e04f24b16544391ea372feb659e39c197aa65c67d75ed82cae72c"
+sha256 = "d4f96dcb01992214134b549050339df5383ec530eeb010460ae4eed9cc5fbee2"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libsqlite3.so.0"
@@ -11037,19 +11037,19 @@ sha256 = "2b7d4c5c549898f3fff509105d7c5b283f0cfcaa83d38954dc8690bd5aba88ed"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libsystemd.so.0"
-sha256 = "c26b447b611a823fa3847144fc05bf2f0152efeda91c4d9aa850aa1848559f63"
+sha256 = "97b53b587868f38dc4f7396f174f4a092b66b49c31e23430d749e5e5dd291062"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libsystemd.so.0.35.0"
-sha256 = "c26b447b611a823fa3847144fc05bf2f0152efeda91c4d9aa850aa1848559f63"
+sha256 = "97b53b587868f38dc4f7396f174f4a092b66b49c31e23430d749e5e5dd291062"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libtasn1.so.6"
-sha256 = "ac2f39cfc5a5ae22d74854e473449608bd3b7ded362acd11e4af3acd4a723bae"
+sha256 = "139e933ac55f26bb80520fc63893ff2a528055fdf8058d8341bbd9d7bd762a5e"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.3"
-sha256 = "ac2f39cfc5a5ae22d74854e473449608bd3b7ded362acd11e4af3acd4a723bae"
+sha256 = "139e933ac55f26bb80520fc63893ff2a528055fdf8058d8341bbd9d7bd762a5e"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libthread_db.so"
@@ -11117,11 +11117,11 @@ sha256 = "7df177a0921f0500d0e9d824ac46d3377e10d348306336b6ede2d8f626519539"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libudev.so.1"
-sha256 = "ccd13b11fd77276bcf948f79e08a4de7a313643387dfdc11af71a543e1bae233"
+sha256 = "1753cdf3413d718637ff8102c4a59e9ac3e56d88419dc24afebf1fc401db9b51"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libudev.so.1.7.5"
-sha256 = "ccd13b11fd77276bcf948f79e08a4de7a313643387dfdc11af71a543e1bae233"
+sha256 = "1753cdf3413d718637ff8102c4a59e9ac3e56d88419dc24afebf1fc401db9b51"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/libunistring.so.2"
@@ -15644,239 +15644,243 @@ uri = "file:/usr/lib/x86_64-linux-gnu/zsh/5.9/zsh/zutil.so"
 sha256 = "b1047d3f59ba9f3327679156a4bccc6039049c18f41a8cfbd6059e8a96cd7d8b"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/classlist"
-sha256 = "b4b146d5a01c1c9b5289d0c5383208c20d72db36793b5cfd7f269ae50dc2ea34"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/classlist"
+sha256 = "f651db807d4b67831045bf03d9238abdd254e357c2f1de81dbf495030992afd7"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/ct.sym"
-sha256 = "a8e705fab6fe6ad20d6d038561a4fdd38fe382e6340369cce1f8000d7d93ad51"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/ct.sym"
+sha256 = "35c9bffd97bc775d5656109813d908c6bafa204d241d80a08edca3bc3e6b0691"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/jexec"
-sha256 = "e08748e5498c095d8ec7e8c2d7475fa794d6e945b45efd0363f3015c3178d448"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/jexec"
+sha256 = "7791b4a5f5ece66f4222e500dff46e871eb99c2dd2742e072c5b6724a134a852"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/jfr/default.jfc"
-sha256 = "fd59ee591005be6d14f0786c4ec00447e56e7503219c6f679cddb07ba0f235a8"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/jfr/default.jfc"
+sha256 = "b1765d56a0ecc57133600b7284bb7b3b977366c4365b7acffd86f8157736d53e"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/jfr/profile.jfc"
-sha256 = "486b8a0f18e14d0c58c5342739a0242dce55540d41a910288b699797c44d8a35"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/jfr/profile.jfc"
+sha256 = "485fb90dbecee9a950c45247464351162b1eb0c35387fbb929f002c600807251"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/jrt-fs.jar"
-sha256 = "0fddc2f26753af6c77a9faf89732daddf0d715400bfa3c5759477a69bfd1218d"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/jrt-fs.jar"
+sha256 = "fee24948e5c70fd6381057c102debc5e91cb799a093c9620d001e83f13b07c77"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/jspawnhelper"
-sha256 = "f744d8907d2a447383af28a4e75b8c847c10fcd10d5ae90334e6fc7bf08d6c84"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/jspawnhelper"
+sha256 = "80e2a94af49fee524a2b79ea97e59f79c7b274c53f361d2c752b9d38c6fc1c43"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/jvm.cfg"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/jvm.cfg"
 sha256 = "aa9efb969444c1484e29adecab55a122458090616e766b2f1230ef05bc3867e0"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libattach.so"
-sha256 = "d653d319f966f3f71c8289de4c4f36643cb949f1d54a6b6730a36afb487c97ae"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libattach.so"
+sha256 = "69029937fce38fd8a507c5780c09d055c8936946ddb9800cb723fe7ca2e57777"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libawt.so"
-sha256 = "76dc1a14e467cb7bd9f67d78199d8045f3e0f3188cdc310d55b698ec02e3a1dc"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libawt.so"
+sha256 = "4bd4ea7bf8b5f849ceb10121704a3c705a1c5b5377ec2810b67f4acc6c2ed880"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libawt_headless.so"
-sha256 = "8bdba6329c1e72cccae9949f7e903920d6b7ea15a3155ee4c20962ea24a216b8"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libawt_headless.so"
+sha256 = "8e636575b8a9ad5d8e5efd0ebd606b7d399f144708eaca93aff950bbad700ca6"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libawt_xawt.so"
-sha256 = "d245fb53322fee235d7a416cf418fc62923a8bdf297666e38ea6e50f02861799"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libawt_xawt.so"
+sha256 = "58bd67fb5431b07c0ce6b7bde0c01631e83aabbe7e6a3a83c53bf7c4d2908afd"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libdt_socket.so"
-sha256 = "2c7582726343ac0cde1c191e9de2cd4aa972801fba558e99dc76d9f4b8b7c143"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libdt_socket.so"
+sha256 = "dd6be8d24c4875b84223542b90e1e8a39768553abb04f8e06a864293e8ba07c8"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libextnet.so"
-sha256 = "9230335d84321d0f3b970d2dc4f03fae987e4208521fc3eda5d5bd02109ed3d7"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libextnet.so"
+sha256 = "3f10d26ac8d74dabec220f97a28a0d2a1939d07ced4f9af7f292398a519efd2e"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libfontmanager.so"
-sha256 = "eaddfd4a10c5f32520bbdc8579e3391b9aa75d51285efa351abcb94059d2728e"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libfontmanager.so"
+sha256 = "18d39641308952f9fd27a18916fc989ec4beae707b46a3691cfcc2b5fe6edbd9"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libinstrument.so"
-sha256 = "7b404d347d4505254f7c8a9952c9794702d8c64f64ce79b6d3fdf2d9a685ec29"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libfreetype.so"
+sha256 = "1641e3cce8a75a1409c8b7bb682a3049feffadc52252bf529901864ecd288dd7"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libj2gss.so"
-sha256 = "2794a60564cbba82f65a898b9f1e276f9fbaaf9cbf529eaa50cc40f2e4623ef5"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libinstrument.so"
+sha256 = "e5d494c09c4c04852d28cb271fd9e9a0d2915fe964cc85471f06c52d8fbd770a"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libj2pcsc.so"
-sha256 = "f78b1af98685e2322711eafd61f652f22486ec40ab19a29f16ecf3b004a3720b"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libj2gss.so"
+sha256 = "138a13f0c9867acf45ed82261ef4683dfca88791ee57a2fc2a4030e0a3053180"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libj2pkcs11.so"
-sha256 = "b87a77d62b3d83101f88d4cfdb3134b20531b3e39d415455778b9ebdc2b17b48"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libj2pcsc.so"
+sha256 = "f14aaa6b5fa1d75342cc37657004bed7bded1a748e932def0c1ca8b6cd2cbd20"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjaas.so"
-sha256 = "3fc32ee2632c4922104862e043cd1b1c99d70a091681e3dbe6aa819e66bff2b8"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libj2pkcs11.so"
+sha256 = "cf562c69200c02109712705cb5f8fcf6f60d141daa5549033d7195c00f985420"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjava.so"
-sha256 = "600cddd7117e39027eb4bb9e0d02f3d9f9a398160942ba61216c3096ab6a716d"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjaas.so"
+sha256 = "7246e51d0588ae62f3e0595ae1ad24c632e63d517e3191b1259f0744f94b937d"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjavajpeg.so"
-sha256 = "41697a8a2e649d1041cb75b42f661d7bdd65dba5683a8e3064bc5a90a6fcf19e"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjava.so"
+sha256 = "27229c1d91c4faa645389e48d50a3653b34b7950836f4ab4c3464daf96316dbb"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjawt.so"
-sha256 = "fa74cd1bea0e0bdd2ee4e1d56bc2b02293e1c58c3b5ca81721aa1ce85668ddc1"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjavajpeg.so"
+sha256 = "76f9a1d0af21c7c57d772842a19b7bf2cf3e2edbfb9dbb103477794f9e76dc9b"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjdwp.so"
-sha256 = "3726c2e408f4be27bdfcf493197e5a5fd36206ad2aee2210e45347f03390f090"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjawt.so"
+sha256 = "511d3f29d304642958830cbf421e1246a442c6b53e83c8da2be352746e29c0dd"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjimage.so"
-sha256 = "b637b81e3b42bca1d367e58875291d19a09fe21fffaa750b1491517e721d8d49"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjdwp.so"
+sha256 = "ee9b5e75eb51eb18c0f634462fe1174ad24958349515b7c0de696f777d24acdc"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjli.so"
-sha256 = "a482851687d2aa30d49e53a12e3b6529a0db337634754ff95865687d35cd49a9"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjimage.so"
+sha256 = "fe84c6d7deffc578340f8bf76a0de761552ec7179f3fa678361e8dfbcc952ddf"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjsig.so"
-sha256 = "5cce555941770d5521c3f2b37d356b89b222fb02b56147f08cfd3af81b7641e8"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjli.so"
+sha256 = "6d6b01ac80e240166f5748acf8caeecff9f9b3fcd8f3e8df5f4138b44807f5bf"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjsound.so"
-sha256 = "b9e7dfe3ee3e7e417331fb43bf1434d5250d80674009879047742642d7d93e2e"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjsig.so"
+sha256 = "ecc184f7153a855c5563090b320cdf1d4940770f06b0c7dd379c67ddab9df022"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libjsvml.so"
-sha256 = "a9f150c503a8930e96e43070e2a818b14031b89a39e51404fd945ec176803293"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjsound.so"
+sha256 = "36422d5aadac6b6da485769b291b623dc9db90488b376a5c27c99c577859402b"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/liblcms.so"
-sha256 = "40ea61fe8c837e2d6cded9509fad00a41ec982b6013804117583e666bc9276b7"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libjsvml.so"
+sha256 = "b07fbe36e0243ad71acc99bbba882bc79e8181351546a242d83fbdcb8310d21b"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/lible.so"
-sha256 = "a4225955f644be32c676cc5adf699f2873e82e2931c34adc7728dce4085bc5f6"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/liblcms.so"
+sha256 = "5b5f7d1c03f0183fc5111ce4587345a40fa80095818951a08e4855fd1e76d3be"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libmanagement.so"
-sha256 = "59d48e9586d41bf30ab3c0cb9735cfc2b2e99c6d63c095e639a7600c2d8df19d"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/lible.so"
+sha256 = "7945340856d233e1dde857088ff293854c50588ef76321bb13e2b13fdf56a599"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libmanagement_agent.so"
-sha256 = "2245426a052caabc77dc5c05ae03182f99b012dabfbdea01c4c179a3791b8640"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libmanagement.so"
+sha256 = "0be79649e44ffc993e15d8054802019e9e4f8f88bc37fa42217fe2f2aff9c839"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libmanagement_ext.so"
-sha256 = "81c433388b4e2e4c9ecf5c4026bbac19f6c8b03642a84c12b944301bcd22124d"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libmanagement_agent.so"
+sha256 = "95fb4376cc9a759bf84112fb116e5aabdfe4fb9a55859d7a66986986de9223cd"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libmlib_image.so"
-sha256 = "1858b6f807c1e710bd38e2237de88e2cd112b4c35ab55465378feb4e0e4437df"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libmanagement_ext.so"
+sha256 = "f90fed8506620bc869a79e1b5b7db5b1bd26e3de10e4ef36c78eae7fa52f3c2a"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libnet.so"
-sha256 = "a7e6dba7b7c81f7aa152b71b6b8e1d65e0acce46eec3b524b809e71c13e49bc3"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libmlib_image.so"
+sha256 = "020e6ba21997c998e34f6665ba29a2f19799e6ebf02548d47197b4990af34ef9"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libnio.so"
-sha256 = "76f15cf6a4d571905a93b267cb4b1b3b07cc56cf2945f02aa23bf70d978beab1"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libnet.so"
+sha256 = "4e87e7e5e8beb99b39036a65663fb4241d3e7534ddfd9d4151aae634600d820d"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libprefs.so"
-sha256 = "bad6ac5c232cf26df37618b6fa8dcd738fff51dd0d052d3e9228e7663017ebf2"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libnio.so"
+sha256 = "bc120673765a3d4299fcae340c15638c68d4437999b64667732d1bff5bdc612f"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/librmi.so"
-sha256 = "0ecc8b01a9c4d735810f7b2ee0e2cd08c60623904aa09ca6733f1ca03457bf27"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libprefs.so"
+sha256 = "df3bd71186627285d0fecec1d3ced8eae646da4f7b08e0431145dfb384537a9a"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libsaproc.so"
-sha256 = "2fff780215f17c195567d0f22224f22ab75aade29827269957144eb396666910"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/librmi.so"
+sha256 = "c5997b78384fcb76d197d4af6d7083e4d86c62e3c159b4c875799919a8fd1028"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libsctp.so"
-sha256 = "b07128a9b5fa3f488e9bad0ceb7f0b8d8293779176b01c111beb08e98e3898d5"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libsaproc.so"
+sha256 = "2bc9b92ab7da365b3ed9d9c6f219b311ac93846cfbff27c49b90c19e02960709"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libsplashscreen.so"
-sha256 = "621b446a5d3713fd3f9c85c718ac5eb06eeac0aa7311397c84a212460b82165c"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libsctp.so"
+sha256 = "a30eef5b2087f04888d0610f4fbcbd9c75e637cb6de4d335a096d0c64242542c"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libsyslookup.so"
-sha256 = "f80fdbfa83e0dedeec44c67373b71c6d4a284c30038861877266e83f26376b07"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libsplashscreen.so"
+sha256 = "ba9ce9a9088597bfe976483933a38d4c05109bc20079dd7035aeef637c59b5ca"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libverify.so"
-sha256 = "c3f39bc1e03ebe48868600d7c96097b324b17a786cc9065b5930fd2235482ff0"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libsyslookup.so"
+sha256 = "ba84105312f98559e0c0d3a85390c3df1a130a289e5f372264f89b5603ddfa51"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/libzip.so"
-sha256 = "479b23bdf41d86bb9dda715974f239f2f480b33e943013532b970fdc7a100168"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libverify.so"
+sha256 = "8065b77f50a5c37285313d2a96030bf6cc1c459a8121090898ce69bff58a9438"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/modules"
-sha256 = "3d07d6652ea76802f30bdec1c8b2a9219ff03f39ae5798ad652d17f31d893f61"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/libzip.so"
+sha256 = "92aca3f48a7e141455f790dc7f17dad9b471ee8be08588ef456bfb3d243549a8"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/psfont.properties.ja"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/modules"
+sha256 = "939e4c39fde44a11f876959f3fdd4902b78454685323f81df528c58d3f9ab81e"
+
+[[sgx.trusted_files]]
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/psfont.properties.ja"
 sha256 = "5a4bd51b969bf187ff86d94f4a71fdfbfa602762975fa3c73d264b4575f7c78f"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/psfontj2d.properties"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/psfontj2d.properties"
 sha256 = "780c565d5af3ee6f68b887b75c041cdf46a0592f67012f12eeb691283e92630a"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/security/blocked.certs"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/security/blocked.certs"
 sha256 = "96572f243f31c2ef81a6e627542e596f6a9295cff3c7ae095c1b595cb1457ded"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/security/cacerts"
-sha256 = "16afaf98083a52f02150196f9c41be68906f9f18ca7638711b7121fde750974b"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/security/cacerts"
+sha256 = "75baf1e4ce6f147e18ace9ce848f9caa1a11c308116be7797d9081e65fd17b28"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/security/default.policy"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/security/default.policy"
 sha256 = "2bd418aab30b091b136962f80be7ddf39dcba85f082a558a6993848ae65366ae"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/security/public_suffix_list.dat"
-sha256 = "aa50b28ce6a41e7b9fa9db8cb80983d1d1df3582dd03f4486b2f64459b4af150"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/security/public_suffix_list.dat"
+sha256 = "5a3a571cc2e016fee10c221036cf1d2b52ee8ba39288ef20abe2667828ca30b4"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/server/classes.jsa"
-sha256 = "d75b1b7ba185cd8e979e0301a011d61e5e6c44524849fbe1aea81f5610b666d3"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/server/classes.jsa"
+sha256 = "19a30dfe82b166a02583d8fddbf001a987cc29c47bc2a80d021cdf48b15fe46e"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/server/classes_nocoops.jsa"
-sha256 = "574cd7f77b3c99dfbb4c8459f8ca19c249cd266b5cd35a8be7097a6243d1b67c"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/server/classes_nocoops.jsa"
+sha256 = "5197e0e3295c2e6ab167a35cb0de6d11d1c286646634085ef1a8371227a4e7af"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/server/libjsig.so"
-sha256 = "5cce555941770d5521c3f2b37d356b89b222fb02b56147f08cfd3af81b7641e8"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/server/libjsig.so"
+sha256 = "ecc184f7153a855c5563090b320cdf1d4940770f06b0c7dd379c67ddab9df022"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/server/libjvm.so"
-sha256 = "f2e07915a5d26aca96d28f34dd11edeb6b8e32795b696eeaac392406072cbbe6"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/server/libjvm.so"
+sha256 = "058009c4edbc703cd184bf190c8d9a3d77de2b74d74264e833a89192d18e52b2"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/src.zip"
-sha256 = "feb7a529748bca68835e5febc9491431aa10eceb6ede9bacdb7c458f39fa6434"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/src.zip"
+sha256 = "e8fe32a4ee05833c0225b5d89916e18ea4d11d9b911b9101c7052379a321bb26"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/lib/tzdb.dat"
-sha256 = "108a63fb316b1eaa8949f3ff7265c2af0402c9ff13f360578e658caaafc40faf"
+uri = "file:/usr/local/sdkman/candidates/java/current/lib/tzdb.dat"
+sha256 = "87022eb5ae9465d75762de6fb2a668c60d411c1394e500c24651895681228148"
 
 [[sgx.trusted_files]]
-uri = "file:/usr/lib/jvm/msopenjdk-current/conf/security/java.security"
+uri = "file:/usr/local/sdkman/candidates/java/current/conf/security/java.security"
 sha256 = "e1c2536f48d22b24084e674f0dd54411c05687813b06e9ad39d358af03993459"
 
 [[sgx.trusted_files]]
@@ -15885,7 +15889,7 @@ sha256 = "357886c0432b5c4056509509e57f7f13f2b24b1dc992f4685fa1f354e20e4374"
 
 [[sgx.trusted_files]]
 uri = "file:/workspaces/JavaSpawnProcess/jvm_args.txt"
-sha256 = "c0f5a72b765e81f8e1f3ed779ef6c39a30c580c91efef88a85d6dc9ffc88d932"
+sha256 = "85a5b4950d20723933cd5ef1f514abb312062c91cf7a6e219f6ca41a1de6d0e5"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/bin/echo"

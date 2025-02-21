@@ -10,6 +10,7 @@
 		"ghcr.io/devcontainers/features/common-utils:2": {},
 		"ghcr.io/devcontainers-extra/features/maven-sdkman:2": { "jdkVersion":  "21", "jdkDistro": "tem" },
 	  },
+	"postCreateCommand": "bash .devcontainer/postCreateCommand.sh",	  
 	
 	"runArgs": [
 		"--userns=keep-id:uid=1000,gid=1000"

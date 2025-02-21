@@ -1,5 +1,5 @@
 loader.entrypoint.uri = "file:{{ gramine.libos }}"
-libos.entrypoint = "/usr/lib/jvm/msopenjdk-current/bin/java"
+libos.entrypoint = "/usr/local/sdkman/candidates/java/current/bin/java"
 loader.argv_src_file = "file:/workspaces/JavaSpawnProcess/jvm_args.txt"
 loader.log_level = "debug"
 
@@ -24,12 +24,12 @@ sgx.use_exinfo = true
 
 sgx.trusted_files = [
   "file:{{ gramine.libos }}",
-  "file:/usr/lib/jvm/msopenjdk-current/bin/java",
+  "file:/usr/local/sdkman/candidates/java/current/bin/java",
   "file:{{ gramine.runtimedir() }}/",
   "file:{{ arch_libdir }}/",
   "file:/usr/{{ arch_libdir }}/",
-  "file:/usr/lib/jvm/msopenjdk-current/lib/",
-  "file:/usr/lib/jvm/msopenjdk-current/conf/security/java.security",
+  "file:/usr/local/sdkman/candidates/java/current/lib/",
+  "file:/usr/local/sdkman/candidates/java/current/conf/security/java.security",
   "file:/workspaces/JavaSpawnProcess/target/classes/com/github/nmwael/jna/Main.class",
   "file:/workspaces/JavaSpawnProcess/jvm_args.txt",
   "file:/usr/bin/echo",
