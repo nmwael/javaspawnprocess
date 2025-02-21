@@ -29,11 +29,15 @@ uri = "file:/usr"
 path = "/usr"
 
 [[fs.mounts]]
+uri = "file:/usr/bin/echo"
+path = "/usr/bin/echo"
+
+[[fs.mounts]]
 uri = "file:/workspaces/JavaSpawnProcess/target/classes/com/github/nmwael/jna/Main.class"
 path = "/workspaces/JavaSpawnProcess/target/classes/com/github/nmwael/jna/Main.class"
 
 [sgx]
-enclave_size = "2G"
+edmm_enable = true
 max_threads = 64
 use_exinfo = true
 isvprodid = 0
@@ -41,7 +45,7 @@ isvsvn = 0
 remote_attestation = "none"
 debug = false
 enable_stats = false
-edmm_enable = false
+enclave_size = "1024G"
 
 [[sgx.trusted_files]]
 uri = "file:/usr/lib/x86_64-linux-gnu/gramine/libsysdb.so"
@@ -15877,11 +15881,15 @@ sha256 = "e1c2536f48d22b24084e674f0dd54411c05687813b06e9ad39d358af03993459"
 
 [[sgx.trusted_files]]
 uri = "file:/workspaces/JavaSpawnProcess/target/classes/com/github/nmwael/jna/Main.class"
-sha256 = "8ec017fffdc2630c9da725acf54d9ba42fbfe4dc39743a3de461ed1d4f20f24a"
+sha256 = "357886c0432b5c4056509509e57f7f13f2b24b1dc992f4685fa1f354e20e4374"
 
 [[sgx.trusted_files]]
 uri = "file:/workspaces/JavaSpawnProcess/jvm_args.txt"
-sha256 = "927fef3ff6374cb0e1435a93f4aa417906438bd87fed76fb04248d69633c4b2d"
+sha256 = "c0f5a72b765e81f8e1f3ed779ef6c39a30c580c91efef88a85d6dc9ffc88d932"
+
+[[sgx.trusted_files]]
+uri = "file:/usr/bin/echo"
+sha256 = "a049fb47554c6cde2ee452e5d87f6386abb63af7cdcae9cd0dc99fc80e0bcf35"
 
 [sgx.cpu_features]
 avx = "unspecified"

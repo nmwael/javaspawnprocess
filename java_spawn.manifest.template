@@ -10,11 +10,14 @@ fs.mounts = [
   { uri = "file:{{ gramine.runtimedir() }}", path = "/lib" },
   { uri = "file:{{ arch_libdir }}", path = "{{ arch_libdir }}" },
   { uri = "file:/usr", path = "/usr" },
+    { uri = "file:/usr/bin/echo", path = "/usr/bin/echo" },
   { uri = "file:/workspaces/JavaSpawnProcess/target/classes/com/github/nmwael/jna/Main.class", path = "/workspaces/JavaSpawnProcess/target/classes/com/github/nmwael/jna/Main.class"}
 ]
-#sgx.remote_attestation = "dcap"
-sgx.enclave_size = "2G"
 
+
+#sgx.remote_attestation = "dcap"
+#sgx.enclave_size = "2G"
+sgx.edmm_enable = true
 # SGX needs minimum 64 threads for loading OpenJDK runtime.
 sgx.max_threads = 64
 sgx.use_exinfo = true
@@ -29,4 +32,7 @@ sgx.trusted_files = [
   "file:/usr/lib/jvm/msopenjdk-current/conf/security/java.security",
   "file:/workspaces/JavaSpawnProcess/target/classes/com/github/nmwael/jna/Main.class",
   "file:/workspaces/JavaSpawnProcess/jvm_args.txt",
+  "file:/usr/bin/echo",
+
+  
 ]

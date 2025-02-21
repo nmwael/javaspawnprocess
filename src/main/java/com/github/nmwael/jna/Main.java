@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        Process process = new ProcessBuilder("echo", "hello").start();
+        Process process = new ProcessBuilder("/usr/bin/echo", "hello").start();
 
     }
 }

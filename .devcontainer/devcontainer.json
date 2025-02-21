@@ -6,6 +6,10 @@
 	"image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
 	//"securityOpt": [ "seccomp=.devcontainer/docker_seccomp_aug_2022.json" ],
 	"securityOpt": [ "seccomp=unconfined" ],
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers-extra/features/maven-sdkman:2": { "jdkVersion":  "21", "jdkDistro": "tem" },
+	  },
 	
 	"runArgs": [
 		"--userns=keep-id:uid=1000,gid=1000"

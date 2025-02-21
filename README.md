@@ -13,7 +13,7 @@ sudo apt-get install gramine
 
 
 
-gramine-argv-serializer "/usr/lib/jvm/msopenjdk-current/bin/java" "-Xms256m" "-Xmx256m" "-XX:CompressedClassSpaceSize=128m" "-XX:MaxMetaspaceSize=256m" "-cp /workspaces/JavaSpawnProcess/target/classes" "com.github.nmwael.jna.Main" > jvm_args.txt
+gramine-argv-serializer "/usr/lib/jvm/msopenjdk-current/bin/java" "-Xms256m" "-Xmx256m" "-XX:CompressedClassSpaceSize=128m" "-XX:MaxMetaspaceSize=256m" "-cp" "/workspaces/JavaSpawnProcess/target/classes" "com.github.nmwael.jna.Main" > jvm_args.txt
 
 gramine-manifest -Darch_libdir=/lib/x86_64-linux-gnu java_spawn.manifest.template java_spawn.manifest
 
