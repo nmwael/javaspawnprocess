@@ -3,8 +3,8 @@
 {
 	"name": "Java",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
-
+	"image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+	//"securityOpt": [ "seccomp=.devcontainer/docker_seccomp_aug_2022.json" ],
 	"runArgs": [
 		"--userns=keep-id:uid=1000,gid=1000"
 	   ],
